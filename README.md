@@ -50,7 +50,8 @@ ___
 Lab Router → 5-Port Gigabit PoE+ Switch 
 
 Switch → Lab Devices (PCs and AD VM)  <br/>
-<img src="https://i.imgur.com/iTUyTLI.png" height="80%" width="80%" alt="Lab overview"/>
+<img src="https://i.imgur.com/iTUyTLI.png" width="600" style="height:auto;">
+
 <br />
 <br />
 
@@ -84,7 +85,7 @@ VLAN 10 (Users): 10.10.10.0/24
 VLAN 20 (AD Server): 10.20.20.0/24
 
 VLAN 30 (Guest/IoT/MDM): 10.30.30.0/24:  <br/>
-<img src="https://i.imgur.com/GrOv3wQ.png" height="80%" width="80%" alt="Set up network on DC VM"/>
+<img src="https://i.imgur.com/GrOv3wQ.png" width="600" style="height:auto;">
 <br />
 <br />
 
@@ -93,7 +94,7 @@ ___
 <p align="center"> 
 
 I then verified that inter-VLAN communication was initially possible, confirming that routing between VLAN 10 and VLAN 20 functioned as expected prior to applying ACL restrictions: <br/>
-<img src="https://i.imgur.com/rSr8u88.png" height="80%" width="80%" alt="DHCP IPv4 network set up"/>
+<img src="https://i.imgur.com/rSr8u88.png" width="600" style="height:auto;">
 <br />
 <br />
 ___
@@ -103,7 +104,7 @@ ACL Rules for Inter-VLAN Security
 
 Purpose: Block ICMP traffic between VLANs to simulate enterprise-grade segmentation and internal zoning.
 Bidirectional ICMP denial was enforced to model enterprise segmentation best practices where mutual isolation enhances security and detection control.:  <br/>
-<img src="https://i.imgur.com/9oWfGK5.png" height="80%" width="80%" alt="enter the powershell on DC VM"/>
+<img src="https://i.imgur.com/9oWfGK5.png" width="600" style="height:auto;">
 <br />
 <br />
  
@@ -118,7 +119,7 @@ Services configured on server:
 DHCP, DNS, HTTP (HTTP disabled for security)
 
 DNS server IP: 10.20.20.5 :  <br/>
-<img src="https://i.imgur.com/y6jwbHV.png" height="80%" width="80%" alt="Once the page is loaded use the link to access OpenVAS and use the username to log in"/>
+<img src="https://i.imgur.com/y6jwbHV.png" width="600" style="height:auto;">
 <br />
 <br />
  
@@ -131,7 +132,7 @@ PC Domain Join to AD (VLAN 10)
 DNS pointed to the AD server (10.20.20.5)
 
 PC successfully joined the domain:  <br/>
-<img src="https://i.imgur.com/g9yYHF0.png" height="80%" width="80%" alt="Once the page is loaded use the link to access OpenVAS and use the username to log in"/>
+<img src="https://i.imgur.com/g9yYHF0.png" width="600" style="height:auto;">
 <br />
 <br />
  
@@ -146,8 +147,8 @@ IPS placed between ISP and Lab Router to inspect and block malicious traffic bef
 MDM VLAN (30) added for laptops, phones, and a printer to isolate and manage mobile/IoT assets securely.
 
 SIEM in VLAN 10 monitors access, IPS, firewall, ACL, and IoT logs for centralized threat visibility :  <br/>
-<img src="https://i.imgur.com/onDw0Dq.png" height="80%" width="80%" alt="Once the page is loaded use the link to access OpenVAS and use the username to log in"/>
-<img src="https://i.imgur.com/mxoeFE5.png" height="80%" width="80%" alt="Once the page is loaded use the link to access OpenVAS and use the username to log in"/>
+<img src="https://i.imgur.com/onDw0Dq.png" width="600" style="height:auto;">
+<img src="https://i.imgur.com/mxoeFE5.png" width="600" style="height:auto;">
 <br />
 <br />
  
