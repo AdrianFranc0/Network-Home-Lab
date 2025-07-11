@@ -1,6 +1,27 @@
 # Enterprise Network Home Lab
 
-## Objective
+
+## Project Overview
+
+This Project is designed to simulate a small enterprise IT environment using virtual machines, Windows Server, Active Directory, and workstations. We will first start by setting up the network topology and apply some security to it as well, progessing to the goal of build a foundation in IT operations while gradually expanding into security-focused workflows like SOC monitoring, endpoint telemetry, and secure network architecture.
+
+---
+> The home lab is divided into several hands-on project areas:
+
+
+## 📂 Lab Project Index
+
+| Project | Description | Status |
+|--------|-------------|--------|
+| Current Lab: Network Simulation (Packet Tracer) | Simulated enterprise network topology with VLANs, DHCP, static routing, etc. | ✅ Complete |
+[Golden Image: IT/ SOC workstations](./IT-Projects/Windows-Imaging-Deployment/README.md) | Standardized Windows image with preinstalled tools and baseline settings | ✅ Complete |
+| Active Directory + GPO Setup | Domain-based user provisioning and policy control | ⏳ In Progress |
+| SIEM Setup + Splunk + Sysmon | Log telemetry, alerting, and detection lab | ⏳ In Progress |
+| pfSense Firewall & VLAN ACLs | Secure network segmentation for lab traffic | ⏳ In Progress |
+
+
+
+## Initial lab Objective
 
 
 To simulate an enterprise-style network environment I used Cisco Packet Tracer. I focused on VLAN segmentation, ACL-based inter-VLAN security, and Active Directory integration. However some features were limited because of Packet Tracer, architectural placeholders and labeling were used to demonstrate future implementation plans. This emulated my future plans of buying physical devices and making my homelab.
@@ -170,13 +191,13 @@ IPS added between ISP modem and Lab Router to inspect incoming external traffic
 
 VLAN 30 used for IoT, mobile, and printer devices with MDM security policies applied
 
-This concludes the Cisco Packet Tracer simulation phase.The next step is to implement this setup using physical equipment (pfSense router/firewall, managed switch, crimped Cat6 cabling) and fully enable advanced firewall features.
+This concludes the Cisco Packet Tracer simulation phase. The next step is to implement this setup using physical equipment (pfSense router/firewall, managed switch, crimped Cat6 cabling) and fully enable advanced firewall features.
 <br />
 <br />
 
 ___
 
-I hope you learned and enjoyed my Home Network Lab! :)
+I hope you learned and enjoyed my Home Network Lab! :)  I will add more additions to this.
 <!--
  ```diff
 - text in red
