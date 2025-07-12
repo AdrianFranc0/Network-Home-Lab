@@ -16,10 +16,10 @@ This Project is designed to simulate a small enterprise IT environment using vir
 | Current Lab: Network Simulation (Packet Tracer) | Simulated enterprise network topology with VLANs, DHCP, static routing, etc. | ✅ Complete |
 [Golden Image: IT/ SOC workstations](https://github.com/AdrianFranc0/Golden-Image-IT-and-SOC-Workstations/blob/main/README.md) | Standardized Windows image with preinstalled tools and baseline settings | ✅ Complete |
 [ Active Directory + GPO Setup ](https://github.com/AdrianFranc0/ActiveDirectory.Pt2) | Domain-based user provisioning and policy control and other IT tasks | ✅ Complete  |
-| [SIEM Monitoring with Active Directory](https://github.com/AdrianFranc0/ActiveDirectory_SIEM_Monitoring) | Endpoint log telemetry, brute force detection, and MITRE ATT&CK testing with Splunk and Sysmon | ✅ Complete |
-| pfSense Firewall & VLAN ACLs (physical) | Secure network segmentation for lab traffic | ⏳ In Progress |
+| [SIEM Monitoring with Active Directory](https://github.com/AdrianFranc0/ActiveDirectory_SIEM_Monitoring) | Active directory, Endpoint log telemetry, brute force detection, and MITRE ATT&CK testing with Splunk and Sysmon | ✅ Complete |
+| pfSense Firewall & VLAN ACLs (physical) | physical version of this network lab, configurations, hardening, provisioning, assemblement of cat6 RJ45 cables, etc | ⏳ In Progress |
 | Helpdesk Ticket Simulation Lab | Simulated troubleshooting of common support issues with step-by-step resolutions | ⏳ In Progress |
-| Disaster Recovery & Prevention Scenarios | Simulates endpoint/image recovery planning and IT resilience best practices | ⏳ In Progress |
+| Disaster Recovery & Prevention Scenarios | Simulates endpoint/image disaster recovery planning and IT resilience best practices | ⏳ In Progress |
 | Mobile Device Management (MDM) Integration | Exploring centralized policy control for mobile devices using free MDM tools | ⏳ In Progress |
 
 
