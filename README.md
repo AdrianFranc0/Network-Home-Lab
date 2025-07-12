@@ -14,7 +14,7 @@ This Project is designed to simulate a small enterprise IT environment using vir
 | Project | Description | Status |
 |--------|-------------|--------|
 | Current Lab: Network Simulation (Packet Tracer) | Simulated enterprise network topology with VLANs, DHCP, static routing, etc. | ✅ Complete |
-[Golden Image: IT/ SOC workstations](./IT-Projects/Windows-Imaging-Deployment/README.md) | Standardized Windows image with preinstalled tools and baseline settings | ✅ Complete |
+[Golden Image: IT/ SOC workstations](https://github.com/AdrianFranc0/Golden-Image-IT-and-SOC-Workstations/blob/main/README.md) | Standardized Windows image with preinstalled tools and baseline settings | ✅ Complete |
 [ Active Directory + GPO Setup ](https://github.com/AdrianFranc0/ActiveDirectory.Pt2) | Domain-based user provisioning and policy control and other IT tasks | ✅ Complete  |
 | [SIEM Monitoring with Active Directory](https://github.com/AdrianFranc0/ActiveDirectory_SIEM_Monitoring) | Endpoint log telemetry, brute force detection, and MITRE ATT&CK testing with Splunk and Sysmon | ✅ Complete |
 | pfSense Firewall & VLAN ACLs (physical) | Secure network segmentation for lab traffic | ⏳ In Progress |
